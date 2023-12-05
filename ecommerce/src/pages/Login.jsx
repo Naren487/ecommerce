@@ -28,7 +28,7 @@ const Login = () => {
     if (getEmail !== null) {
       navigate("/");
     }
-    axios.get("http://localhost:2000/users").then((res) => {
+    axios.get("http://23.22.246.234:2000/users").then((res) => {
       Setusers(res.data);
     });
   }, []);
