@@ -35,7 +35,7 @@ const Register = () => {
             console.log(number.length);
         }
         else{
-        axios.post('http://localhost:2000/users',user)
+        axios.post('http://23.22.246.234:2000/users',user)
         .then(res=>{
             alert("Data Added Successfully!!!");
             navigate("/login");
